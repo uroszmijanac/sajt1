@@ -1,0 +1,326 @@
+body{
+	background-color: black;
+	font-size: 18px;
+
+}
+.container{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.container.plavi{
+
+	background-color: #40629B;
+}
+
+
+p{
+
+	font-family: 'Poiret One', cursive;
+	color: #fff;
+
+}
+
+h3{
+
+    font-family: 'Poiret One', cursive;
+	color: #76B51B;
+
+}
+
+
+h2{
+color: #76B51B;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+/* HEADER */
+
+
+.navbar-brand h2 {
+
+	color: #76B51B;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	line-height: .75;
+	font-weight: bold;
+	text-shadow: 1px 1px 10px #fff;
+
+}
+
+#navigacija{
+
+	background-color: transparent;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+
+	background: url('../img/logo.jpg') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 10px 15px 10px 0;
+	display: none;
+
+}
+
+.navbar-brand{
+
+	padding: 10px;
+}
+
+.glyphicon{
+
+ color: #fff;
+ font-size: 150%;
+ padding-top: 5px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+.jumbotron{
+
+	
+	background-image: url(https://github.com/uroszmijanac/najlepsa/blob/gh-pages/img/milica.jpg?raw=true); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	
+}
+
+ h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #76B51B;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	font-size: 1000%;
+	margin-bottom: 0;
+
+
+} 
+
+@media screen and (min-width: 1200px) {
+
+	.jumbotron h1{
+	font-size: 100px;
+	color: #76B51B;
+	padding-bottom: 10px;
+	font-family: 'Poiret One', cursive;
+	height: 45vh;
+
+
+}
+
+.jumbotron p {
+
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	text-shadow: 3px;
+	font-size: 150%;
+	font-weight: bold;
+	color: #76B51B;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.jumbotron h1{
+	font-size: 50px;
+	color: #76B51B;
+	padding-bottom: 0px;
+	font-family: 'Poiret One', cursive;
+	margin-bottom: 0;
+
+
+ }
+
+ }
+
+
+ @media (min-width: 768px) and (max-width: 991px) {
+
+	.jumbotron h1{
+	font-size: 50px;
+	color: #76B51B;
+	padding-bottom: 10px;
+	font-family: 'Poiret One', cursive;
+
+
+ }
+
+}
+
+@media (max-width: 767px) {
+
+	.jumbotron h1{
+	font-size: 1em;
+	color: #76B51B;
+	padding-bottom: 10px;
+	font-family: 'Poiret One', cursive;
+
+
+ }
+
+ .jumbotron{
+
+ 	background-size: cover;
+ }
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+
+	border: 1px solid #76B51B;
+}
+
+
+
+
+}
+/* END HEADER */
+
+/* MAIN CONTENT*/
+
+h4{
+
+font-size: 20px;
+color: #fff;
+text-transform: uppercase;
+font-family: 'Poiret One', cursive;
+text-shadow: 2px;
+font-weight: bold;
+}
+
+p{
+
+	color: white;
+}
+
+p.midle{
+
+	vertical-align: middle;
+	padding-top: 40px;
+}
+
+
+.Media a:hover{
+
+	background-image: url(../img/mila sila.jpg);
+}
+
+/*Hover*/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #42b078;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+#instafeed{
+
+
+}
+
+
+
